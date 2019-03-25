@@ -1,0 +1,26 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+body {
+    min-height: 100vh;
+}
+
+header {
+    height: 60px;
+    background-color: brown;
+    color: azure;
+    font-size: 2em;
+    text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    text-align: center;
+}
