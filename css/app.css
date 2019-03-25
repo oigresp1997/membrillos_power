@@ -13,10 +13,13 @@ html {
 
 body {
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-header {
+footer {
     height: 60px;
+    margin: auto 0 0;
     background-color: brown;
     color: azure;
     font-size: 2em;
